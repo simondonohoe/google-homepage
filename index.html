@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <!-- <div class="navbar__menu"> -->
+        <div class="links">
+          <a href="#" class="links__gmail">Gmail</a>
+          <a href="#" class="links__images">Images</a>
+        </div>
+        <div class="headerBtns">
+          <div class="dropdown">
+            <button class="dropBtn"></button>
+            <!-- <div class="dropdown-content">
+            <a href="#">Account</a>
+            <a href="#">Search</a>
+            <a href="#">Maps</a>
+            <a href="#">Youtube</a>
+            <a href="#">Play</a>
+            <a href="#">News</a>
+          </div> -->
+          </div>
+          <button class="signInBtn">Sign in</button>
+        </div>
+        <!-- </div> -->
+      </nav>
+    </header>
+    <section class="searchPage">
+      <div class="searchPage__logo">
+        <img
+          src="./images/googlelogo_color_272x92dp.png"
+          id="googleLogo"
+          alt="Google"
+        />
+      </div>
+      <div class="searchPage__searchBox">
+        <img src="./images/seachIcon.png" class="searchIcon" alt="Search">
+        <input class="search" name="search" type="text" />
+      </div>
+      <div class="searchPage__btns">
+        <button class="searchBtn" name="enter search" type="submit">
+          Google Search
+        </button>
+        <button class="randomBtn" name="random search" type="submit">
+          I'm Feeling Lucky
+        </button>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__leftMenu">
+        <ul class="items1">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">How Search works</a></li>
+        </ul>
+      </div>
+      <div class="footer__rightMenu">
+        <ul class="items2">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>

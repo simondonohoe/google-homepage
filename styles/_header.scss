@@ -1,0 +1,45 @@
+.navbar {
+  padding-top: 16px;
+  //padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links,
+.headerBtns {
+  display: flex;
+}
+
+.links {
+  padding-right: 15px;
+
+  &__images {
+    padding-left: 15px;
+  }
+}
+
+.dropBtn {
+  height: 30px;
+  width: 30px;
+  background-image: url(/the_odin_project/google-homepage/images/googleAppsBtn.png);
+  //background-position: 50%, 50%;
+  background-color: transparent;
+  border: none;
+}
+
+.signInBtn {
+  cursor: default;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 0 12px;
+  border: 1px solid $btnBlue;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: $fontSmall;
+  font-weight: 700;
+  line-height: 28px;
+  background: $btnBlue;
+}
